@@ -1,0 +1,2 @@
+- Tall young (25) black woman with right artificial hand, dresses in expensive fabrics
+- Not actually Spanish, people call her that because most of her 20 husbands are Spanish

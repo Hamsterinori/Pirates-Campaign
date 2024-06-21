@@ -1,0 +1,2 @@
+- tall slim European around 40 years old, short black trimmed hair, trimmed moustache, glasses, blue eyes
+- currently having a secret-ish affair with [[Heather Morgan]]

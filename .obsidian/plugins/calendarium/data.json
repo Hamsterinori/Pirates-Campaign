@@ -1,0 +1,3199 @@
+{
+  "addToDefaultIfMissing": true,
+  "calendars": [
+    {
+      "name": "Timeline calendar",
+      "description": "A timeline of all the known events",
+      "autoParse": false,
+      "path": [
+        "/"
+      ],
+      "supportInlineEvents": true,
+      "inlineEventTag": "inline-events",
+      "showIntercalarySeparately": true,
+      "static": {
+        "displayDayNumber": true,
+        "incrementDay": true,
+        "displayMoons": true,
+        "firstWeekDay": 1,
+        "overflow": true,
+        "weekdays": [
+          {
+            "type": "day",
+            "name": "Sunday",
+            "id": "ID_19ea684b4a08"
+          },
+          {
+            "type": "day",
+            "name": "Monday",
+            "id": "ID_2928b90ab949"
+          },
+          {
+            "type": "day",
+            "name": "Tuesday",
+            "id": "ID_0ad9a8f9e95b"
+          },
+          {
+            "type": "day",
+            "name": "Wednesday",
+            "id": "ID_195a4b290bc9"
+          },
+          {
+            "type": "day",
+            "name": "Thursday",
+            "id": "ID_abe8c89b0999"
+          },
+          {
+            "type": "day",
+            "name": "Friday",
+            "id": "ID_2b5b8a79fa4a"
+          },
+          {
+            "type": "day",
+            "name": "Saturday",
+            "id": "ID_1a78cb79c8cb"
+          }
+        ],
+        "months": [
+          {
+            "name": "January",
+            "type": "month",
+            "length": 31,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_e9997a780b3a"
+          },
+          {
+            "name": "February",
+            "type": "month",
+            "length": 28,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_b8c9ebeb0b89"
+          },
+          {
+            "name": "March",
+            "type": "month",
+            "length": 31,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_b83bda2b9be8"
+          },
+          {
+            "name": "April",
+            "type": "month",
+            "length": 30,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_29baea7b28ab"
+          },
+          {
+            "name": "May",
+            "type": "month",
+            "length": 31,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_6a3899fad909"
+          },
+          {
+            "name": "June",
+            "type": "month",
+            "length": 30,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_384aeb1afa8a"
+          },
+          {
+            "name": "July",
+            "type": "month",
+            "length": 31,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_48b8cba87b8a"
+          },
+          {
+            "name": "August",
+            "type": "month",
+            "length": 31,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_fa0b1a6bab8a"
+          },
+          {
+            "name": "September",
+            "type": "month",
+            "length": 30,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_da880b8af849"
+          },
+          {
+            "name": "October",
+            "type": "month",
+            "length": 31,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_babba8186968"
+          },
+          {
+            "name": "November",
+            "type": "month",
+            "length": 30,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_da582bfaf9b9"
+          },
+          {
+            "name": "December",
+            "type": "month",
+            "length": 31,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_ba1bab4a3a28"
+          }
+        ],
+        "moons": [
+          {
+            "name": "Moon",
+            "cycle": 29.530588853,
+            "offset": 9.24953,
+            "faceColor": "#ffffff",
+            "shadowColor": "#000000",
+            "id": "ID_a9ab186b1819"
+          }
+        ],
+        "leapDays": [
+          {
+            "name": "Leap Day",
+            "type": "leapday",
+            "interval": [
+              {
+                "ignore": false,
+                "exclusive": false,
+                "interval": 4
+              },
+              {
+                "ignore": false,
+                "exclusive": true,
+                "interval": 100
+              },
+              {
+                "ignore": false,
+                "exclusive": false,
+                "interval": 400
+              }
+            ],
+            "offset": 0,
+            "timespan": 1,
+            "intercalary": false,
+            "id": "ID_b91ad86a887a"
+          }
+        ],
+        "eras": [
+          {
+            "name": "Before Christ",
+            "format": "{{era_name}}",
+            "id": "ID_9a2978c92baa",
+            "endsYear": false,
+            "isEvent": false,
+            "type": "era",
+            "category": null,
+            "isStartingEra": true,
+            "date": {
+              "year": 1,
+              "month": 0,
+              "day": 1
+            }
+          },
+          {
+            "name": "Anno Domini",
+            "format": "{{era_name}}",
+            "date": {
+              "year": 1,
+              "month": 0,
+              "day": 1
+            },
+            "id": "ID_a8db38899a2b",
+            "endsYear": false,
+            "isEvent": false,
+            "type": "era",
+            "category": null,
+            "isStartingEra": false
+          }
+        ],
+        "offset": 0,
+        "padDays": 2,
+        "padMonths": 2
+      },
+      "current": {
+        "day": 7,
+        "month": 9,
+        "year": 1716
+      },
+      "events": [
+        {
+          "name": "Summer Solstice",
+          "description": "At the summer solstice, the Sun travels the longest path through the sky, and that day therefore has the most daylight.",
+          "id": "824599",
+          "note": null,
+          "date": {
+            "day": 20,
+            "month": 5,
+            "year": [
+              null,
+              null
+            ]
+          },
+          "type": "Recurring",
+          "category": "natural-events",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Winter Solstice",
+          "description": "The winter solstice marks the shortest day and longest night of the year, when the sun is at its lowest arc in the sky.",
+          "id": "824600",
+          "note": null,
+          "date": {
+            "day": 21,
+            "month": 11,
+            "year": [
+              null,
+              null
+            ]
+          },
+          "type": "Recurring",
+          "category": "natural-events",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Spring Equinox",
+          "description": "The equinox marks the day and the night is equally as long.",
+          "id": "824601",
+          "note": null,
+          "date": {
+            "day": 20,
+            "month": 2,
+            "year": [
+              null,
+              null
+            ]
+          },
+          "type": "Recurring",
+          "category": "natural-events",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Autumn Equinox",
+          "description": "The equinox marks the day and the night is equally as long.",
+          "id": "824602",
+          "note": null,
+          "date": {
+            "day": 22,
+            "month": 8,
+            "year": [
+              null,
+              null
+            ]
+          },
+          "type": "Recurring",
+          "category": "natural-events",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Christmas",
+          "description": "Christmas is a Christian holiday celebrating the birth of Christ. Due to a combination of marketability and long lasting traditions it is popular even among many non-Christians, especially in countries that have a strong Christian tradition.",
+          "id": "824603",
+          "note": null,
+          "date": {
+            "day": 25,
+            "month": 11,
+            "year": [
+              null,
+              null
+            ]
+          },
+          "type": "Recurring",
+          "category": "christian-holidays",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Paschal Full Moon",
+          "description": "The first full moon after march 21st, which is considered the fixed date for the spring equinox.",
+          "id": "824604",
+          "note": null,
+          "date": {
+            "day": null,
+            "year": null,
+            "month": null
+          },
+          "type": "Undated",
+          "category": "christian-holidays",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Easter",
+          "description": "Easter is considered the most important feast for Christians, celebrating the resurrection of Christ. It is classed as a moveable feast occurring on the first full moon after the spring equinox, which is considered to be fixed at March 21st for the sake of computing the date.",
+          "id": "824605",
+          "note": null,
+          "date": {
+            "day": null,
+            "year": null,
+            "month": null
+          },
+          "type": "Undated",
+          "category": "christian-holidays",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Easter Monday",
+          "description": "The Monday following the Easter Sunday is often considered part of the Easter Celebration and is a day off in many countries with a strong Christian tradition.",
+          "id": "824606",
+          "note": null,
+          "date": {
+            "day": null,
+            "year": null,
+            "month": null
+          },
+          "type": "Undated",
+          "category": "christian-holidays",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Good Friday",
+          "description": "Good Friday is the Friday preceding Easter. It comemmorates the crucifixion of Christ according to the Bible.",
+          "id": "824607",
+          "note": null,
+          "date": {
+            "day": null,
+            "year": null,
+            "month": null
+          },
+          "type": "Undated",
+          "category": "christian-holidays",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Pentecost",
+          "description": "Celebrated exactly 50 days after Easter, Pentecost is the celebration of the Holy Spirit appearing before the Apostles as described in the Bible.",
+          "id": "824608",
+          "note": null,
+          "date": {
+            "day": null,
+            "year": null,
+            "month": null
+          },
+          "type": "Undated",
+          "category": "christian-holidays",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "New Year's Day",
+          "description": "New Year's Day marks the date of a new year on the Gregorian Calendar. It dates when the clock strikes midnight and is often celebrated with fireworks, champagne and kissing.",
+          "id": "824609",
+          "note": null,
+          "date": {
+            "day": 1,
+            "year": [
+              null,
+              null
+            ],
+            "month": 0
+          },
+          "type": "Recurring",
+          "category": "secular-holidays",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Valentine's Day",
+          "description": "Valentine's day is a celebration of love and romance that is popular across the world. Many more cynically minded people mostly consider it an attempt to monetize the expectation of romantic gestures on the holiday through gift cards, flowers, chocolate and dates.",
+          "id": "824610",
+          "note": null,
+          "date": {
+            "day": 14,
+            "year": [
+              null,
+              null
+            ],
+            "month": 1
+          },
+          "type": "Recurring",
+          "category": "secular-holidays",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Halloween",
+          "description": "Halloween is holiday popular in the US, Canada and Ireland that has gradually been adopted by more and more countries. It is often celebrated by people dressing up, usually as something scary. Children will often go from door to door shouting \"trick or treat\" in the hopes of receiving candy, while adults tend to go to parties.",
+          "id": "824611",
+          "note": null,
+          "date": {
+            "day": 31,
+            "year": [
+              null,
+              null
+            ],
+            "month": 9
+          },
+          "type": "Recurring",
+          "category": "secular-holidays",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Henry Jennings is born",
+          "description": "Henry Jennings is born as the youngest child out of 16 to Phillip Jennings of Duddleston Hall, Shropshire. He leaves England at the age of 20 with his mother after the death of his father and settles in Bahamas and then on Jamaica",
+          "date": {
+            "month": 2,
+            "day": 11,
+            "year": 1671
+          },
+          "id": "ID_4948aad9aa78",
+          "note": "The world/Characters/Captains/Henry Jennings.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Benjamin Hornigold is born",
+          "description": "Benjamin Hornigold is born in England",
+          "date": {
+            "month": 7,
+            "day": 3,
+            "year": 1675
+          },
+          "id": "ID_98294a3b6ab9",
+          "note": "The world/Characters/Captains/Benjamin Hornigold.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Blackbeard is born",
+          "description": "Edward Teach Jr. is born to the family of captain Edward Teach in Bristol. The family (including his mother and sister) soon moves to Jamaica, where his mother dies on January 1699 and his father remarries in June of the same year. \nHis father dies in 1706.",
+          "date": {
+            "month": 8,
+            "day": 19,
+            "year": 1678
+          },
+          "id": "ID_7aca4bfbfb7b",
+          "note": "The world/Characters/Captains/Edward (Blackbeard) Teach.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Charles Vane is born",
+          "description": "Charles Vane is born in Jamaica",
+          "date": {
+            "month": 5,
+            "day": 6,
+            "year": 1680
+          },
+          "id": "ID_ca9ada59db09",
+          "note": "The world/Characters/Captains/Charles Vane.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Calico Jack is born",
+          "description": "John Rackham is born in England",
+          "date": {
+            "month": 6,
+            "day": 23,
+            "year": 1686
+          },
+          "id": "ID_cb489b590b98",
+          "note": "The world/Characters/Captains/John (Calico Jack) Rackham.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Stede Bonnet is born",
+          "description": "Stede Bonnet is born on Barbados into the family of a rich plantation owner",
+          "date": {
+            "month": 0,
+            "day": 6,
+            "year": 1688
+          },
+          "id": "ID_584be9b99938",
+          "note": "The world/Characters/Captains/Stede Bonnet.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Mary Read is born",
+          "description": "Mary Read is born as a bastard and the second child of a widow, who's husband got lost at sea. After her baby step-brother died, her mother started masquerading Mary as her dead brother",
+          "date": {
+            "month": 3,
+            "day": 20,
+            "year": 1688
+          },
+          "id": "ID_aa7a99eb086a",
+          "note": "The world/Characters/Crew/Mary (Mark) Read.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Sam Bellamy is born",
+          "description": "Sam Bellamy is born as the youngest of 6 children in Devon, England to a black family. His mother soon dies due to complication from giving birth.\nHis father is the local lord, who his mother served. He later kept the father's family name.",
+          "date": {
+            "month": 1,
+            "day": 23,
+            "year": 1689
+          },
+          "id": "ID_4afa096b3818",
+          "note": "The world/Characters/Captains/Samuel (Black Sam) Bellamy.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Élie Angevau se narodila",
+          "description": "Élie is born into a family of wealthy nobility of French descent on St Martin as the only child. Her mother dies soon after her birth",
+          "date": {
+            "month": 7,
+            "day": 20,
+            "year": 1690
+          },
+          "id": "ID_987a88d869b9",
+          "note": "The world/Characters/Player characters/Élie Angevau.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Anne Bonney is born",
+          "description": "Anne Bonney is born in County Cork, Ireland as a illegitimate daughter of an attorney and his servant woman Mary. Her father started presenting Anne as legitimate, moved away from his wife and her family to London and started dressing Anne as a boy and bringing her up to be a layer's clerk.\nAfter his wife discovered this, Anne's father moved together with her and her mother Mary to Charles Town in South Carolina, where he was eventually able to buy a townhouse and a plantation.\nAnne's mother died when Anne was still young.",
+          "date": {
+            "month": 1,
+            "day": 16,
+            "year": 1693
+          },
+          "id": "ID_18e94a8b8b18",
+          "note": "The world/Characters/Crew/Anne Bonney.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Israel Hands is born",
+          "description": "Izzy Hands is born to Katherine Hands, a prostitute in Bristol. His mother dies when he is 8 years old and Izzy decides to become a sailor.\nAccording to his mother, his father is Edward Drummond, a sailor that used to visit her. Unbeknown to him or his father, Edward Drummond is a fake name that Blackbeard used in port when he was still in the navy",
+          "date": {
+            "month": 9,
+            "day": 11,
+            "year": 1697
+          },
+          "id": "ID_e93bab4939d8",
+          "note": "The world/Characters/Crew/Israel Hands.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Elizabeth Teach is born",
+          "description": "Elizabeth Teach is born to Blackbeard and an unknown mother in Port Royal. Soon after her birth she's given away to be taken care of by Blackbeard's step-mother and father in Kingston",
+          "date": {
+            "month": 3,
+            "day": 30,
+            "year": 1703
+          },
+          "id": "ID_0a9b38b9891a",
+          "note": "The world/Characters/Townsfolk/Elizabeth Teach.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Élie Angevau runs away from home",
+          "description": "Shortly after her 18th birthday and the night before her wedding to admiral Jennings, Élie runs away from home",
+          "date": {
+            "month": 7,
+            "day": 29,
+            "year": 1706
+          },
+          "id": "ID_99992889bbfb",
+          "note": "The world/Characters/Player characters/Élie Angevau.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Josiah Burges takes Nassau",
+          "description": "Josiah Burges takes over the small pirate town of Nassau and becomes the pirate governor",
+          "date": {
+            "month": 5,
+            "day": 16,
+            "year": 1710
+          },
+          "id": "ID_883949caabe8",
+          "note": "The world/Characters/Captains/Josiah Burges.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Hornigold and Jennings become pirates",
+          "description": "Ben Hornigold and Henry Jennings become pirates.\nEdward Teach, Charles Vane and Sam Bellamy start their pirate careers in their crews",
+          "date": {
+            "month": 4,
+            "day": 19,
+            "year": 1711
+          },
+          "id": "ID_b8c99a89899b",
+          "note": "The world/Characters/Captains/Benjamin Hornigold.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Aksim al-Jamil appears",
+          "description": "Aksim disappear from his world and appers in this one",
+          "date": {
+            "month": 5,
+            "day": 2,
+            "year": 1711
+          },
+          "id": "ID_485a0829c808",
+          "note": "The world/Characters/Player characters/Aksim al-Jamil.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Anne and James Bonney marry",
+          "description": "Anne marries James Bonney. Anne's father doesn't approve of his daughter marrying a poor sailor and disinherits her. The pair moves to Nassau.",
+          "date": {
+            "month": 9,
+            "day": 11,
+            "year": 1716
+          },
+          "id": "ID_687afba8581b",
+          "note": "The world/Characters/Crew/Anne Bonney.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Calico Jack meets Anne Bonney",
+          "description": "Calico Jack meets Anne Bonney in a pub in Nassau and the two fall in love",
+          "date": {
+            "month": 2,
+            "day": 7,
+            "year": 1712
+          },
+          "id": "ID_984998db895a",
+          "note": "The world/Characters/Captains/John (Calico Jack) Rackham.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Anne and James Bonney divorce",
+          "description": "After several months or trying, Calico Jack finally manages to bribe James Bonney into officially divorcing Anne",
+          "date": {
+            "month": 5,
+            "day": 21,
+            "year": 1712
+          },
+          "id": "ID_db19e888594a",
+          "note": "The world/Characters/Crew/Anne Bonney.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "John Cockram retires",
+          "description": "John Cockram leaves the crew of Ben Hornigold where he was the 1st mate and founds a trading company that specializes primarily in supplying pirate ports",
+          "date": {
+            "month": 6,
+            "day": 22,
+            "year": 1712
+          },
+          "id": "ID_ea29c8288ab9",
+          "note": "The world/Characters/Captains/John Cockram.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Blackbeard becomes 1st mate",
+          "description": "Hornigold promotes Teach to 1st mate and Teach gets his own ship.\nIzzy Hands joins Teach's crew",
+          "date": {
+            "month": 6,
+            "day": 25,
+            "year": 1712
+          },
+          "id": "ID_293ab83b5b2b",
+          "note": "The world/Characters/Captains/Edward (Blackbeard) Teach.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Calico Jack meets Mary Read",
+          "description": "Mary Read begins working in Calico Jack's crew dressed as a man, becomes close with Anne to whom she revelas her secret and eventually joins Jack's polycule",
+          "date": {
+            "month": 9,
+            "day": 17,
+            "year": 1712
+          },
+          "id": "ID_2a5829d9880a",
+          "note": "The world/Characters/Crew/Mary (Mark) Read.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "1st Pirate Republic in Nassau",
+          "description": "Jennings and Hornigold form the Pirate Republic and become co-governors, taking command of Nassau from Burgess",
+          "date": {
+            "month": 4,
+            "day": 16,
+            "year": 1713
+          },
+          "id": "ID_fab8d839e898",
+          "note": "The world/Locations/Bahamas/Nassau (New Providence)/Nassau.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Range",
+          "end": {
+            "month": 10,
+            "day": 2,
+            "year": 1715
+          }
+        },
+        {
+          "name": "Charles Vane becomes captain",
+          "description": "Charles Vane separates from Jennings and becomes captain",
+          "date": {
+            "month": 5,
+            "day": 26,
+            "year": 1713
+          },
+          "id": "ID_29eaf84a896a",
+          "note": "The world/Characters/Captains/Charles Vane.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Calico Jack becomes 1st mate",
+          "description": "Vane promotes Calico Jack to 1st mate and Jack gets his own ship.",
+          "date": {
+            "month": 7,
+            "day": 25,
+            "year": 1713
+          },
+          "id": "ID_5a2a9a38b83a",
+          "note": "The world/Characters/Captains/John (Calico Jack) Rackham.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Josiah Burges accepts pardon",
+          "description": "Josiah Burgess accepts the king's pardon and settles in Jamaica",
+          "date": {
+            "month": 10,
+            "day": 9,
+            "year": 1713
+          },
+          "id": "ID_7a5bdafa2819",
+          "note": "The world/Characters/Captains/Josiah Burges.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Black Bart Roberts becomes captain",
+          "description": "Roberts is elected by his crew as their new captain after the former captain's death",
+          "date": {
+            "month": 3,
+            "day": 13,
+            "year": 1714
+          },
+          "id": "ID_ba88297ae868",
+          "note": "The world/Characters/Captains/Bartholomew (Black Bart) Roberts.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Sam Bellamy meets Goody Hallett",
+          "description": "While visiting relatives in Cape Cod, Massachusetts, Bellamy meets Goody Hallett, a local herbalist, and falls in love. But her parents don't want to let her marry a poor sailor, so Sam decides to rob a great treasure and then to come back a wealthy man to ask for Goody's hand in marriage again",
+          "date": {
+            "month": 10,
+            "day": 5,
+            "year": 1714
+          },
+          "id": "ID_5b8bba6ae938",
+          "note": "The world/Characters/Captains/Samuel (Black Sam) Bellamy.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Sam Bellamy becomes captain",
+          "description": "Due to the crew's dissatisfaction with Hornigold's refusal to attack the ships of his native Britain, Bellamy separates from Hornigold and becomes captain",
+          "date": {
+            "month": 11,
+            "day": 3,
+            "year": 1714
+          },
+          "id": "ID_db9a099b6a2a",
+          "note": "The world/Characters/Captains/Samuel (Black Sam) Bellamy.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Paulsgrave Williams becomes 1st mate",
+          "description": "Bellamy promotes his best friend Williams to 1st mate.",
+          "date": {
+            "month": 11,
+            "day": 6,
+            "year": 1714
+          },
+          "id": "ID_e8090bda69ab",
+          "note": "The world/Characters/Crew/Paulsgrave Williams.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Brock Dewlap comes to Nassau",
+          "description": "Brock moves from London to the Bahamas and settles in Nassau, where he opens a shop",
+          "date": {
+            "month": 11,
+            "day": 6,
+            "year": 1714
+          },
+          "id": "ID_db0bbb3a98fb",
+          "note": "The world/Characters/Player characters/Brock Dewlap.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Calico Jack and Anne Bonney marry",
+          "description": "Calico Jack and Anne Bonney officially marry on the sea",
+          "date": {
+            "month": 1,
+            "day": 6,
+            "year": 1715
+          },
+          "id": "ID_b8a89b585a28",
+          "note": "The world/Characters/Captains/John (Calico Jack) Rackham.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Charles Vane accepts pardon",
+          "description": "Charles Vane accepts the king's pardon and leaves piracy behind",
+          "date": {
+            "month": 7,
+            "day": 3,
+            "year": 1715
+          },
+          "id": "ID_890b6aa899c9",
+          "note": "The world/Characters/Captains/Charles Vane.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Calico Jack becomes captain",
+          "description": "In response to Charle Vane accepting the king's pardon, Calico Jack becomes captain",
+          "date": {
+            "month": 7,
+            "day": 19,
+            "year": 1715
+          },
+          "id": "ID_9ad96969397b",
+          "note": "The world/Characters/Captains/John (Calico Jack) Rackham.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Stede Bonnet meets Blackbeard and Bonnet",
+          "description": "Blackbeard and Hornigold find a wounded Bonnet, Blackbeard seizes Bonnet's ship, and Bonnet moves aboard Blackbeard's ship",
+          "date": {
+            "month": 8,
+            "day": 1,
+            "year": 1715
+          },
+          "id": "ID_2b28bbda79eb",
+          "note": "The world/Characters/Captains/Stede Bonnet.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Charles Vane returns to piracy",
+          "description": "Charles Vane breaks the king's pardon and returns to piracy. This marks the beginning of his infamy of cruelty",
+          "date": {
+            "month": 9,
+            "day": 18,
+            "year": 1715
+          },
+          "id": "ID_88f91bcb4a99",
+          "note": "The world/Characters/Captains/Charles Vane.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Hornigold and Jennings publicly break up",
+          "description": "No one knows exactly what happened between Jennings and Hornigold, but chaos broke out on the docks one evening when one of Jennings' ships caught fire and Captain Jennings was nearly burned to death. According to witnesses, Jennings and Hornigold had a loud argument before the fire, and people believe Hornigold set the boat on fire as he left. Since then, the two captains have practically not spoken to each other, and Hornigold turns red with rage at the mention of Jennings' name",
+          "date": {
+            "month": 10,
+            "day": 2,
+            "year": 1715
+          },
+          "id": "ID_fac8c81a48d8",
+          "note": "The world/Characters/Captains/Benjamin Hornigold.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Blackbeard becomes captain",
+          "description": "In response to Jennings and Hornigold's stormy split and Blackbeard's support of Jennings, Blackbeard splits from Hornigold and becomes captain.\nBonnet moves with him.",
+          "date": {
+            "month": 10,
+            "day": 5,
+            "year": 1715
+          },
+          "id": "ID_da9adb78e90b",
+          "note": "The world/Characters/Captains/Edward (Blackbeard) Teach.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "2nd Republic of Pirates in Nassau",
+          "description": "Blackbeard is elected the new governor of the Pirate Republic",
+          "date": {
+            "month": 10,
+            "day": 12,
+            "year": 1715
+          },
+          "id": "ID_a99b4a4bc989",
+          "note": "The world/Locations/Bahamas/Nassau (New Providence)/Nassau.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Range",
+          "end": {
+            "month": 4,
+            "day": 28,
+            "year": 1718
+          }
+        },
+        {
+          "name": "Israel Hands becomes 1st mate",
+          "description": "Blackbeard promotes Israel to the post of 1st mate",
+          "date": {
+            "month": 11,
+            "day": 23,
+            "year": 1715
+          },
+          "id": "ID_e80b28caab48",
+          "note": "The world/Characters/Crew/Israel Hands.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Jennings and Silvermouth start dating",
+          "description": "Henry Jennings and John Silvermouth, Captain Hornigold's navigator, start dating and keep their relationship a secret due to the rivalry between Jennings and Hornigold",
+          "date": {
+            "month": 3,
+            "day": 19,
+            "year": 1716
+          },
+          "id": "ID_38da1a5b88ca",
+          "note": "The world/Characters/Captains/Henry Jennings.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Raine and Calico Jack break up",
+          "description": "Raine gives Calico Jack the boot and leaves his crew",
+          "date": {
+            "month": 8,
+            "day": 12,
+            "year": 1716
+          },
+          "id": "ID_0ae9689b399a",
+          "note": "The world/Characters/Player characters/Raine Whispers.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Élie Angevau arrives to Nassau",
+          "description": null,
+          "date": {
+            "month": 8,
+            "day": 13,
+            "year": 1716
+          },
+          "id": "ID_99097aa99ad8",
+          "note": "The world/Characters/Player characters/Élie Angevau.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Session 1",
+          "description": "This is where the first joint session of the campaign begins.\nRaine and Aksim meet at the Thirsty Squid, where they recruit a crew and subsequently receive their first assignment from Blackbeard",
+          "date": {
+            "month": 8,
+            "day": 16,
+            "year": 1716
+          },
+          "id": "ID_db2a08e93adb",
+          "note": "Session notes/Session 1.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Sam Bellamy dies",
+          "description": "Sam returns to Cape Cod to his sweetheart, fully prepared to give up piracy so they can finally get married and settle down together.\nThe Whydah Galley runs into a heavy storm off Cape Cod, causing the ship to run aground and Sam goes down with the ship. Only 2 survivors remain from the entire ship and 104 dead eventually wash ashore",
+          "date": {
+            "month": 3,
+            "day": 26,
+            "year": 1717
+          },
+          "id": "ID_29eb5b5b58ab",
+          "note": "The world/Characters/Captains/Samuel (Black Sam) Bellamy.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Anne Bonney gives birth to a son",
+          "description": "Anne Bonney moves in with family in Cuba, where she gives birth to her first child with Calico Jack. After a few weeks, she returns to the sea and leaves her son in the care of her father",
+          "date": {
+            "month": 4,
+            "day": 17,
+            "year": 1717
+          },
+          "id": "ID_c9695bfb0bd9",
+          "note": "The world/Characters/Crew/Anne Bonney.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "The end of piracy in Port Royal",
+          "description": "The British Army decided to take back control of Port Royal. The pirates they couldn't drive out, they executed, and Port Royal became the main pirate gallows",
+          "date": {
+            "month": 10,
+            "day": 6,
+            "year": 1717
+          },
+          "id": "ID_0a5bbba97879",
+          "note": "The world/Locations/Jamaica/Port Royal/Port Royal.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Hornigold accepts pardon",
+          "description": "Hornigold accepts the king's pardon and becomes a pirate hunter",
+          "date": {
+            "month": 0,
+            "day": 12,
+            "year": 1718
+          },
+          "id": "ID_0af95ba97ac8",
+          "note": "The world/Characters/Captains/Benjamin Hornigold.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "The end of the Pirate Republic in Nassau",
+          "description": "Governor Woodes Rogers arrives in Nassau to drive out the pirates who did not accept the pardon. The Pirate Republic ends",
+          "date": {
+            "month": 4,
+            "day": 25,
+            "year": 1718
+          },
+          "id": "ID_7a19398b2a38",
+          "note": "The world/Locations/Bahamas/Nassau (New Providence)/Nassau.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Henry Jennings accepts pardon",
+          "description": "Jennings accepts the king's pardon and uses his fortune to buy a plantation in the Bermuda Islands, where he settles with Silvermouth",
+          "date": {
+            "month": 5,
+            "day": 2,
+            "year": 1718
+          },
+          "id": "ID_0a1b18abc988",
+          "note": "The world/Characters/Captains/Henry Jennings.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Blackbeard's blockade of Charles Town",
+          "description": null,
+          "date": {
+            "month": 5,
+            "day": 4,
+            "year": 1718
+          },
+          "id": "ID_79eaca4adbcb",
+          "note": "The world/Characters/Captains/Edward (Blackbeard) Teach.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Queen Anne's Revenge runs aground",
+          "description": "Queen Anne's Revenge runs aground and is abandoned",
+          "date": {
+            "month": 5,
+            "day": 10,
+            "year": 1718
+          },
+          "id": "ID_589928389b28",
+          "note": "The world/Characters/Ships/Queen Anne's Revenge.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Blackbeard and Bonnet accept pardon",
+          "description": "Blackbeard and Bonnet receive the king's pardon in the city of Bath. But Blackbeard runs away before he could sign, leaving Bonnet to accept the pardon by himself. Bonnet frantically tries to find him but they never meet again",
+          "date": {
+            "month": 5,
+            "day": 20,
+            "year": 1718
+          },
+          "id": "ID_d9eb596939ea",
+          "note": "The world/Characters/Captains/Edward (Blackbeard) Teach.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Stede Bonnet returns to piracy",
+          "description": "Bonnet returns to piracy under the pseudonym \"Captain Thomas Edwards\" to get revenge on Blackbeard",
+          "date": {
+            "month": 5,
+            "day": 26,
+            "year": 1718
+          },
+          "id": "ID_6819d9d8b839",
+          "note": "The world/Characters/Captains/Stede Bonnet.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Blackbeard accepts pardon again",
+          "description": "Blackbeard moves to Bath and accepts the pardon after his first failed attempt to receive a pardon",
+          "date": {
+            "month": 5,
+            "day": 30,
+            "year": 1718
+          },
+          "id": "ID_48d89b4aa979",
+          "note": "The world/Characters/Captains/Edward (Blackbeard) Teach.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Blackbeard returns to piracy",
+          "description": "Blackbeard does not last long in Bath as an orderly citizen and returns to piracy",
+          "date": {
+            "month": 7,
+            "day": 28,
+            "year": 1718
+          },
+          "id": "ID_bb6bfa2a7949",
+          "note": "The world/Characters/Captains/Edward (Blackbeard) Teach.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Ocracoke orgy",
+          "description": "Blackbeard and Charles Vane meet on Ocracoke Island, where their crews rest, while they debate for a few days. Calico Jack also joins them",
+          "date": {
+            "month": 8,
+            "day": 27,
+            "year": 1718
+          },
+          "id": "ID_abf8db78db1b",
+          "note": "The world/Characters/Captains/Edward (Blackbeard) Teach.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Stede Bonnet is arrested",
+          "description": "Bonnet is arrested and imprisoned in Charles Town. He managed to escape from prison, but on November 10, 1718 he's caught again",
+          "date": {
+            "month": 9,
+            "day": 3,
+            "year": 1718
+          },
+          "id": "ID_fab99aa9cb7b",
+          "note": "The world/Characters/Captains/Stede Bonnet.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Blackbeard dies",
+          "description": "Blackbeard dies after a battle with Lt. Robert Maynard off Ocracoke Island, his body is then thrown into the bay and his head is hung from the bowsprit of Maynard's ship and then displayed at the entrance to Chesapeake Bay for several years",
+          "date": {
+            "month": 10,
+            "day": 22,
+            "year": 1718
+          },
+          "id": "ID_9a29895b4bb9",
+          "note": "The world/Characters/Captains/Edward (Blackbeard) Teach.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Stede Bonnet dies",
+          "description": "Bonnet is convicted and hanged. His body is then buried in a swamp near Charleston",
+          "date": {
+            "month": 11,
+            "day": 10,
+            "year": 1718
+          },
+          "id": "ID_5aeaf8eb581b",
+          "note": "The world/Characters/Captains/Stede Bonnet.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Benjamin Hornigold dies",
+          "description": "Hornigold dies in a severe storm at sea somewhere between New Providence and Mexico. His ship sinks with him and only 5 men are saved",
+          "date": {
+            "month": 11,
+            "day": 3,
+            "year": 1719
+          },
+          "id": "ID_dbc8ba7988ca",
+          "note": "The world/Characters/Captains/Benjamin Hornigold.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Calico Jack, Anne and Mary are arrested",
+          "description": "Calico Jack, Anne and Mary are arrested and taken to Port Royal to stand trial for piracy",
+          "date": {
+            "month": 9,
+            "day": 31,
+            "year": 1720
+          },
+          "id": "ID_ca0b1b1b09c8",
+          "note": "The world/Characters/Captains/John (Calico Jack) Rackham.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Calico Jack dies",
+          "description": "Calico Jack is convicted of piracy and executed, his body is hung in a cage on a small island close to the entrance to Port Royal harbor as a warning to other pirates",
+          "date": {
+            "month": 10,
+            "day": 18,
+            "year": 1720
+          },
+          "id": "ID_0b0b0a08eaeb",
+          "note": "The world/Characters/Captains/John (Calico Jack) Rackham.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Charles Vane is arrested",
+          "description": "Charles Vane is arrested after trying to join another crew under a false name after being shipwrecked on a desert island but is exposed",
+          "date": {
+            "month": 1,
+            "day": 6,
+            "year": 1721
+          },
+          "id": "ID_d89b797adba9",
+          "note": "The world/Characters/Captains/Charles Vane.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Charles Vane dies",
+          "description": "Charles Vane is executed and his body is hung in a cage on a small island near the entrance to Port Royal harbour as a warning to other pirates",
+          "date": {
+            "month": 2,
+            "day": 29,
+            "year": 1721
+          },
+          "id": "ID_187bf96a2ac9",
+          "note": "The world/Characters/Captains/Charles Vane.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Mary Read dies",
+          "description": "Mary Read dies in Port Royal prison from complications during her pregnancy. Her child dies with her.\nAnne Bonney dissapears from prison a few days afterwards",
+          "date": {
+            "month": 3,
+            "day": 28,
+            "year": 1721
+          },
+          "id": "ID_c9b818ea8b0a",
+          "note": "The world/Characters/Crew/Mary (Mark) Read.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Anne Bonney gives birth to a daughter",
+          "description": "After escaping from prison, Anne Bonney moves in with her family in Cuba, where she gives birth to her second child with Calico Jack. She remains in Cuba with her children until her death",
+          "date": {
+            "month": 4,
+            "day": 16,
+            "year": 1721
+          },
+          "id": "ID_d839d90bea38",
+          "note": "The world/Characters/Crew/Anne Bonney.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Black Bart Roberts dies",
+          "description": "Captain Roberts dies off Cape Lopez after his ship is discovered by a Navy ship and fails to escape.\nCaptain Roberts was killed by grapeshot, which struck him in the throat while he stood on the deck. Before his body could be captured by Ogle, Roberts's wish to be buried at sea with all his arms and ornaments on (a request he had repeated in life) was fulfilled by his crew, who weighed his body down and threw it overboard after wrapping it in his ship's sail. It was never found",
+          "date": {
+            "month": 1,
+            "day": 10,
+            "year": 1722
+          },
+          "id": "ID_59e8b889fbea",
+          "note": "The world/Characters/Captains/Bartholomew (Black Bart) Roberts.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Israel Hands dies (?)",
+          "description": "Israel Hands dies on the streets of London as a beggar",
+          "date": {
+            "month": 3,
+            "day": 13,
+            "year": 1724
+          },
+          "id": "ID_9b597a5bdbd8",
+          "note": "The world/Characters/Crew/Israel Hands.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "\"A General History of the Pyrates\" comes out",
+          "description": null,
+          "date": {
+            "month": 4,
+            "day": 14,
+            "year": 1724
+          },
+          "id": "ID_9baa2a68899a",
+          "note": null,
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Anne Bonney dies",
+          "description": "Anne Bonney dies 12 years after her prison break and is buried in the same cemetery next to Mary Read\nhttps://www.postandcourier.com/news/a-22-year-old-youtuber-may-have-solved-anne-bonny-pirate-mystery-300-years-after/article_78fc0a2e-2914-11eb-a5f5-03b65f4d281a.html",
+          "date": {
+            "month": 11,
+            "day": 29,
+            "year": 1733
+          },
+          "id": "ID_ebabb969193b",
+          "note": "The world/Characters/Crew/Anne Bonney.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Henry Jennings dies",
+          "description": "Henry Jennings dies peacefully on his plantation in Bermuda",
+          "date": {
+            "month": 5,
+            "day": 4,
+            "year": 1745
+          },
+          "id": "ID_a829893a0b0b",
+          "note": "The world/Characters/Captains/Henry Jennings.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Session 1",
+          "description": "This is where the first joint session of the campaign begins.\nRaine and Aksim meet at the Thirsty Squid, where they recruit a crew and subsequently receive their first assignment from Blackbeard",
+          "date": {
+            "month": 8,
+            "day": 16,
+            "year": 1716
+          },
+          "id": "ID_db2a08e93adb",
+          "note": "Session notes/Session 1.md",
+          "category": "ID_db9a99a80ba9",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Session 0",
+          "description": null,
+          "date": {
+            "day": 15,
+            "month": 8,
+            "year": 1716
+          },
+          "id": "ID_eb3ab8e949e8",
+          "note": "Session notes/Session 0.md",
+          "category": "ID_db9a99a80ba9",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Session 2",
+          "description": null,
+          "date": {
+            "day": 17,
+            "month": 8,
+            "year": 1716
+          },
+          "id": "ID_68bbd9b80ba9",
+          "note": "Session notes/Session 2.md",
+          "category": "ID_db9a99a80ba9",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Session 3",
+          "description": null,
+          "date": {
+            "day": 22,
+            "month": 8,
+            "year": 1716
+          },
+          "id": "ID_4bfaea0b38f9",
+          "note": "Session notes/Session 3.md",
+          "category": "ID_db9a99a80ba9",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Session 4",
+          "description": null,
+          "date": {
+            "day": 27,
+            "month": 8,
+            "year": 1716
+          },
+          "id": "ID_59eb4938496b",
+          "note": "Session notes/Session 4.md",
+          "category": "ID_db9a99a80ba9",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Session 5",
+          "description": null,
+          "date": {
+            "day": 28,
+            "month": 8,
+            "year": 1716
+          },
+          "id": "ID_ea0ad88959b9",
+          "note": "Session notes/Session 5.md",
+          "category": "ID_db9a99a80ba9",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Session 6",
+          "description": null,
+          "date": {
+            "day": 29,
+            "month": 8,
+            "year": 1716
+          },
+          "id": "ID_2aa9f91b895a",
+          "note": "Session notes/Session 6.md",
+          "category": "ID_db9a99a80ba9",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Session 6.5 - Elie mini sesh",
+          "description": null,
+          "date": {
+            "day": 29,
+            "month": 8,
+            "year": 1716
+          },
+          "id": "ID_581ab8798bb8",
+          "note": "Session notes/Session 6.5 - Elie mini sesh.md",
+          "category": "ID_db9a99a80ba9",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Session 7",
+          "description": null,
+          "date": {
+            "day": 29,
+            "month": 8,
+            "year": 1716
+          },
+          "id": "ID_e9bbda4b78b8",
+          "note": "Session notes/Session 7.md",
+          "category": "ID_db9a99a80ba9",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Session 8",
+          "description": null,
+          "date": {
+            "day": 7,
+            "month": 9,
+            "year": 1716
+          },
+          "id": "ID_e99a09a84a38",
+          "note": "Session notes/Session 8.md",
+          "category": "ID_db9a99a80ba9",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Session 9",
+          "description": null,
+          "date": {
+            "day": 7,
+            "month": 9,
+            "year": 1716
+          },
+          "id": "ID_a8a9495afb79",
+          "note": "Session notes/Session 9.md",
+          "category": "ID_db9a99a80ba9",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Session 10",
+          "description": null,
+          "date": {
+            "day": 7,
+            "month": 9,
+            "year": 1716
+          },
+          "id": "ID_e8daeb18a808",
+          "note": "Session notes/Session 10.md",
+          "category": "ID_db9a99a80ba9",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Israel Hands",
+          "description": null,
+          "date": {
+            "day": 15,
+            "month": 9,
+            "year": 1716
+          },
+          "id": "ID_c90808a87b4a",
+          "note": "The world/Characters/Crew/Israel Hands.md",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Isla de Nadie is revealed",
+          "description": null,
+          "date": {
+            "day": 15,
+            "month": 9,
+            "year": 1716
+          },
+          "id": "ID_c90808a87b4a",
+          "note": "The world/Locations/Isla de Nadie/Isla de Nadie.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Range",
+          "end": {
+            "day": 17,
+            "month": 9,
+            "year": 1716
+          }
+        },
+        {
+          "name": "Isla de Nadie is revealed",
+          "description": null,
+          "date": {
+            "day": 15,
+            "month": 9,
+            "year": 1716
+          },
+          "id": "ID_c90808a87b4a",
+          "note": "The world/Locations/Isla de Nadie/Isla de Nadie.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Range",
+          "end": {
+            "day": 17,
+            "month": 9,
+            "year": 1716
+          }
+        },
+        {
+          "name": "Charles Vane's ship is wrecked",
+          "description": "Charles Vane's ship is wrecked off the coast of Isla de Nadie, leaving him as seemingly the only survivor. Haunted by the ghosts of his crewmembers, after a few weeks he accepts the king's pardon and retires",
+          "date": {
+            "day": 15,
+            "month": 6,
+            "year": 1715
+          },
+          "id": "ID_198998f87b08",
+          "note": "The world/Characters/Captains/Charles Vane.md",
+          "category": "ID_488a0baaf93a",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        }
+      ],
+      "id": "ID_99bba9287ba9",
+      "categories": [
+        {
+          "name": "Natural Events",
+          "id": "natural-events",
+          "color": "#2E7D32"
+        },
+        {
+          "name": "Christian Holidays",
+          "id": "christian-holidays",
+          "color": "#9b2c2c"
+        },
+        {
+          "name": "Secular Holidays",
+          "id": "secular-holidays",
+          "color": "#0D47A1"
+        },
+        {
+          "id": "ID_488a0baaf93a",
+          "color": "#f5b761",
+          "name": "Campaign events"
+        },
+        {
+          "id": "ID_db9a99a80ba9",
+          "color": "#e656aa",
+          "name": "Sessions"
+        }
+      ],
+      "dateFormat": "MM-DD-MM-YYYY"
+    },
+    {
+      "name": "Timeline",
+      "description": "Timeline of all the known events",
+      "id": "ID_4a5958fb1aa8",
+      "showIntercalarySeparately": true,
+      "static": {
+        "incrementDay": false,
+        "firstWeekDay": 0,
+        "overflow": true,
+        "weekdays": [
+          {
+            "type": "day",
+            "name": "Monday",
+            "id": "ID_88aa9a1a19a9"
+          },
+          {
+            "type": "day",
+            "name": "Tuesday",
+            "id": "ID_99d8a94a1b09"
+          },
+          {
+            "type": "day",
+            "name": "Wednesday",
+            "id": "ID_bbf95ab9d9e8"
+          },
+          {
+            "type": "day",
+            "name": "Thursday",
+            "id": "ID_a8da2b59baf9"
+          },
+          {
+            "type": "day",
+            "name": "Friday",
+            "id": "ID_289bb8abb9d8"
+          },
+          {
+            "type": "day",
+            "name": "Saturday",
+            "id": "ID_881b084bab98"
+          },
+          {
+            "type": "day",
+            "name": "Sunday",
+            "id": "ID_6bebe8b96969"
+          }
+        ],
+        "months": [
+          {
+            "type": "month",
+            "name": "January",
+            "length": 30,
+            "id": "ID_7a59cb8bcaeb",
+            "interval": 1,
+            "offset": 0
+          },
+          {
+            "type": "month",
+            "name": "February",
+            "length": 28,
+            "id": "ID_e8bbd968c919",
+            "interval": 1,
+            "offset": 0
+          },
+          {
+            "type": "month",
+            "name": "March",
+            "length": 31,
+            "id": "ID_587b8be939e9",
+            "interval": 1,
+            "offset": 0
+          },
+          {
+            "type": "month",
+            "name": "April",
+            "length": 30,
+            "id": "ID_6a992b695aa9",
+            "interval": 1,
+            "offset": 0
+          },
+          {
+            "type": "month",
+            "name": "May",
+            "length": 31,
+            "id": "ID_88f949d958da",
+            "interval": 1,
+            "offset": 0
+          },
+          {
+            "type": "month",
+            "name": "June",
+            "length": 30,
+            "id": "ID_e8b878ebeaaa",
+            "interval": 1,
+            "offset": 0
+          },
+          {
+            "type": "month",
+            "name": "July",
+            "length": 31,
+            "id": "ID_4b795a394b1b",
+            "interval": 1,
+            "offset": 0
+          },
+          {
+            "type": "month",
+            "name": "August",
+            "length": 31,
+            "id": "ID_28da99cbf928",
+            "interval": 1,
+            "offset": 0
+          },
+          {
+            "type": "month",
+            "name": "September",
+            "length": 30,
+            "id": "ID_8b0ac86938da",
+            "interval": 1,
+            "offset": 0
+          },
+          {
+            "type": "month",
+            "name": "October",
+            "length": 31,
+            "id": "ID_eb7959382ba8",
+            "interval": 1,
+            "offset": 0
+          },
+          {
+            "type": "month",
+            "name": "November",
+            "length": 30,
+            "id": "ID_38e9aaab18b9",
+            "interval": 1,
+            "offset": 0
+          },
+          {
+            "type": "month",
+            "name": "December",
+            "length": 31,
+            "id": "ID_ca6a3a8a291b",
+            "interval": 1,
+            "offset": 0
+          }
+        ],
+        "moons": [],
+        "displayMoons": true,
+        "displayDayNumber": false,
+        "leapDays": [],
+        "eras": [],
+        "years": [
+          {
+            "type": "year",
+            "name": "1745",
+            "id": "ID_4afa889bab2a"
+          },
+          {
+            "type": "year",
+            "name": "1733",
+            "id": "ID_6928cbe909ca"
+          },
+          {
+            "type": "year",
+            "name": "1724",
+            "id": "ID_dadbb8989929"
+          },
+          {
+            "type": "year",
+            "name": "1723",
+            "id": "ID_7849e8298919"
+          },
+          {
+            "type": "year",
+            "name": "1722",
+            "id": "ID_3a89bb0b5958"
+          },
+          {
+            "type": "year",
+            "name": "1721",
+            "id": "ID_dae9dbc87bb9"
+          },
+          {
+            "type": "year",
+            "name": "1720",
+            "id": "ID_993a18d89b9b"
+          },
+          {
+            "type": "year",
+            "name": "1719",
+            "id": "ID_49aacbfbbacb"
+          },
+          {
+            "type": "year",
+            "name": "1718",
+            "id": "ID_797929a99a39"
+          },
+          {
+            "type": "year",
+            "name": "1717",
+            "id": "ID_f87a9b6b4a8b"
+          },
+          {
+            "type": "year",
+            "name": "1716",
+            "id": "ID_286a481a98ab"
+          },
+          {
+            "type": "year",
+            "name": "1715",
+            "id": "ID_884858e8bb9b"
+          },
+          {
+            "type": "year",
+            "name": "1714",
+            "id": "ID_381b7b8b4a3a"
+          },
+          {
+            "type": "year",
+            "name": "1713",
+            "id": "ID_3869db4869c9"
+          },
+          {
+            "type": "year",
+            "name": "1712",
+            "id": "ID_abd9d8997b5b"
+          },
+          {
+            "type": "year",
+            "name": "1711",
+            "id": "ID_fa9af92bd9c9"
+          },
+          {
+            "type": "year",
+            "name": "1710",
+            "id": "ID_88eb7a7869aa"
+          },
+          {
+            "type": "year",
+            "name": "1709",
+            "id": "ID_8a5b1bab3a9b"
+          },
+          {
+            "type": "year",
+            "name": "1708",
+            "id": "ID_ba888928a8e8"
+          },
+          {
+            "type": "year",
+            "name": "1703",
+            "id": "ID_0af82b1bbb49"
+          },
+          {
+            "type": "year",
+            "name": "1697",
+            "id": "ID_4acb4ab81a1b"
+          },
+          {
+            "type": "year",
+            "name": "1693",
+            "id": "ID_ebe828f8ab48"
+          },
+          {
+            "type": "year",
+            "name": "1690",
+            "id": "ID_ea3a5a6b383b"
+          },
+          {
+            "type": "year",
+            "name": "1689",
+            "id": "ID_dbeaf8a8da58"
+          },
+          {
+            "type": "year",
+            "name": "1688",
+            "id": "ID_7bb9297be858"
+          },
+          {
+            "type": "year",
+            "name": "1686",
+            "id": "ID_09aaca384b99"
+          },
+          {
+            "type": "year",
+            "name": "1680",
+            "id": "ID_4b6bab099aeb"
+          },
+          {
+            "type": "year",
+            "name": "1678",
+            "id": "ID_8aa8ca3a3afb"
+          },
+          {
+            "type": "year",
+            "name": "1675",
+            "id": "ID_596818dbba2b"
+          },
+          {
+            "type": "year",
+            "name": "1671",
+            "id": "ID_191a5b481908"
+          }
+        ],
+        "useCustomYears": true,
+        "padMonths": 2,
+        "padDays": 2
+      },
+      "current": {
+        "day": 11,
+        "month": 9,
+        "year": 10
+      },
+      "events": [
+        {
+          "name": "Henry Jennings is born",
+          "description": "Henry Jennings is born",
+          "date": {
+            "month": 3,
+            "day": 11,
+            "year": 29
+          },
+          "id": "ID_98ebdab95b5a",
+          "note": "Characters/Henry Jennings.md",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Benjamin Hornigold se narodil",
+          "description": "Benjamin Hornigold se narodil",
+          "date": {
+            "month": 8,
+            "day": 3,
+            "year": 28
+          },
+          "id": "ID_69f9b8abb828",
+          "note": "Characters/Benjamin Hornigold.md",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Blackbeard se narodil",
+          "description": "Blackbeard se narodil",
+          "date": {
+            "month": 9,
+            "day": 19,
+            "year": 27
+          },
+          "id": "ID_2aebe8c9985a",
+          "note": "Characters/Edward (Blackbeard) Teach.md",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Charles Vane se narodil",
+          "description": "Charles Vane se narodil",
+          "date": {
+            "month": 6,
+            "day": 6,
+            "year": 26
+          },
+          "id": "ID_c85abbc8bac9",
+          "note": "Characters/Charles Vane.md",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Calico Jack se narodil",
+          "description": "Calico Jack se narodil",
+          "date": {
+            "month": 7,
+            "day": 23,
+            "year": 25
+          },
+          "id": "ID_9b2bcaeb699a",
+          "note": "Characters/John (Calico Jack) Rackham.md",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Stede Bonnet se narodil",
+          "description": "Stede Bonnet se narodil",
+          "date": {
+            "month": 1,
+            "day": 6,
+            "year": 24
+          },
+          "id": "ID_8b7b081b58bb",
+          "note": "Characters/Stede Bonnet.md",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Mary Read se narodila",
+          "description": "Mary Read se narodila",
+          "date": {
+            "month": 4,
+            "day": 20,
+            "year": 24
+          },
+          "id": "ID_78085b4a38fa",
+          "note": "Characters/Mary (Mark) Read.md",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Sam Bellamy se narodil",
+          "description": "Sam Bellamy se narodil",
+          "date": {
+            "month": 1,
+            "day": 23,
+            "year": 23
+          },
+          "id": "ID_1bca8aeaf878",
+          "note": "Characters/Samuel (Black Sam) Bellamy.md",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Élie se narodila",
+          "description": "Élie se narodila",
+          "date": {
+            "month": 7,
+            "day": 20,
+            "year": 22
+          },
+          "id": "ID_eba92bda088b",
+          "note": null,
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Anne Bonney se narodila",
+          "description": "Anne Bonney se narodila",
+          "date": {
+            "month": 2,
+            "day": 16,
+            "year": 21
+          },
+          "id": "ID_0859ba4a9bc9",
+          "note": "Characters/Anne Bonney.md",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Israel Hands se narodil",
+          "description": "Israel Hands se narodil",
+          "date": {
+            "month": 11,
+            "day": 2,
+            "year": 20
+          },
+          "id": "ID_39da5bbbca0b",
+          "note": "Characters/Israel Hands.md",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Elizabeth Teach se narodila",
+          "description": "Blackbeardova dcera Elizabeth Teach se narodila",
+          "date": {
+            "month": 4,
+            "day": 30,
+            "year": 19
+          },
+          "id": "ID_d9c96a597959",
+          "note": null,
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Élie utíká z domu",
+          "description": null,
+          "date": {
+            "month": 7,
+            "day": 29,
+            "year": 18
+          },
+          "id": "ID_7a5b0a18e818",
+          "note": null,
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Josiah Burges obsazuje Nassau",
+          "description": null,
+          "date": {
+            "month": 5,
+            "day": 16,
+            "year": 16
+          },
+          "id": "ID_4b683aaadb19",
+          "note": null,
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Hornigold a Jennings se stávají piráty",
+          "description": null,
+          "date": {
+            "month": 4,
+            "day": 19,
+            "year": 15
+          },
+          "id": "ID_98a96a199b88",
+          "note": null,
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Aksim se objevuje",
+          "description": null,
+          "date": {
+            "month": 5,
+            "day": 2,
+            "year": 15
+          },
+          "id": "ID_f8eaaa8b29cb",
+          "note": null,
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Anney Bonney a Jack Bonney mají svatbu",
+          "description": null,
+          "date": {
+            "month": 6,
+            "day": 24,
+            "year": 15
+          },
+          "id": "ID_68abd87bbbc9",
+          "note": null,
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Calico Jack potkává Anne Bonney",
+          "description": null,
+          "date": {
+            "month": 2,
+            "day": 7,
+            "year": 14
+          },
+          "id": "ID_69badb5af98b",
+          "note": null,
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Anne a Jack se rozvádí",
+          "description": null,
+          "date": {
+            "month": 5,
+            "day": 21,
+            "year": 14
+          },
+          "id": "ID_689b3878e99a",
+          "note": null,
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Cockram opouští Hornigoldovu posádku",
+          "description": null,
+          "date": {
+            "month": 6,
+            "day": 22,
+            "year": 14
+          },
+          "id": "ID_08096a7988bb",
+          "note": null,
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Blackbeard se stává velícím důstojníkem",
+          "description": null,
+          "date": {
+            "month": 6,
+            "day": 25,
+            "year": 14
+          },
+          "id": "ID_89f8ba28a859",
+          "note": null,
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Calico Jack potkává Mary Read",
+          "description": null,
+          "date": {
+            "month": 9,
+            "day": 17,
+            "year": 14
+          },
+          "id": "ID_db1b89e9aa4a",
+          "note": "Characters/John (Calico Jack) Rackham.md",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Republika Pirátů v Nassau",
+          "description": null,
+          "date": {
+            "month": 4,
+            "day": 16,
+            "year": 13
+          },
+          "id": "ID_c9e848e88b99",
+          "note": "Locations/Nassau.md",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Range",
+          "end": {
+            "month": 10,
+            "day": 2,
+            "year": 1715
+          }
+        },
+        {
+          "name": "Charles Vane se stává kapitánem",
+          "description": null,
+          "date": {
+            "month": 5,
+            "day": 26,
+            "year": 13
+          },
+          "id": "ID_aa5b99bbf808",
+          "note": "Characters/Charles Vane.md",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Calico Jack se stává velícím důstojníkem",
+          "description": null,
+          "date": {
+            "month": 7,
+            "day": 25,
+            "year": 13
+          },
+          "id": "ID_3bd979091bb9",
+          "note": "Characters/John (Calico Jack) Rackham.md",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Josiah Burges přijímá pardon",
+          "description": null,
+          "date": {
+            "month": 10,
+            "day": 9,
+            "year": 13
+          },
+          "id": "ID_cb3adbcaa859",
+          "note": null,
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Roberts se stává kapitánem",
+          "description": null,
+          "date": {
+            "month": 3,
+            "day": 13,
+            "year": 12
+          },
+          "id": "ID_9be95a69e829",
+          "note": null,
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Sam Bellamy potkává Goody Hallett",
+          "description": null,
+          "date": {
+            "month": 10,
+            "day": 5,
+            "year": 12
+          },
+          "id": "ID_896a190bc8cb",
+          "note": "Characters/Samuel (Black Sam) Bellamy.md",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Sam Bellamy se stává kapitánem",
+          "description": null,
+          "date": {
+            "month": 11,
+            "day": 3,
+            "year": 12
+          },
+          "id": "ID_1a2beacbcb0b",
+          "note": "Characters/Samuel (Black Sam) Bellamy.md",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Paulsgrave Williams se stává velícím důstojníkem",
+          "description": null,
+          "date": {
+            "month": 11,
+            "day": 6,
+            "year": 12
+          },
+          "id": "ID_1aab2ad8b8ab",
+          "note": null,
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Brock přichází do Nassau",
+          "description": null,
+          "date": {
+            "month": 11,
+            "day": 6,
+            "year": 12
+          },
+          "id": "ID_2a6ad80bfbab",
+          "note": null,
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Calico Jack a Anne bonney mají svatbu",
+          "description": null,
+          "date": {
+            "month": 1,
+            "day": 6,
+            "year": 11
+          },
+          "id": "ID_a988e8fbda8b",
+          "note": "Characters/John (Calico Jack) Rackham.md",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Charles Vane přijímá pardon",
+          "description": null,
+          "date": {
+            "month": 7,
+            "day": 3,
+            "year": 11
+          },
+          "id": "ID_99daf80af8fa",
+          "note": "Characters/Charles Vane.md",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Calico Jack se stává kapitánem",
+          "description": null,
+          "date": {
+            "month": 7,
+            "day": 19,
+            "year": 11
+          },
+          "id": "ID_ca8a58caeba8",
+          "note": "Characters/John (Calico Jack) Rackham.md",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Stede Bonnet potkává Blackbearda a Hornigolda",
+          "description": null,
+          "date": {
+            "month": 8,
+            "day": 1,
+            "year": 11
+          },
+          "id": "ID_cb1ba8dac888",
+          "note": "Characters/Stede Bonnet.md",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Charles Vane se vrací k pirátství",
+          "description": null,
+          "date": {
+            "month": 9,
+            "day": 18,
+            "year": 11
+          },
+          "id": "ID_4b69d8aae89a",
+          "note": "Characters/Charles Vane.md",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Hornigold a Jennings se veřejně rozchází",
+          "description": null,
+          "date": {
+            "month": 10,
+            "day": 2,
+            "year": 11
+          },
+          "id": "ID_2ab9e9fb7959",
+          "note": "Characters/Henry Jennings.md",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Blackbeard se stává kapitánem",
+          "description": null,
+          "date": {
+            "month": 10,
+            "day": 5,
+            "year": 11
+          },
+          "id": "ID_ea7bd9aa3948",
+          "note": "Characters/Edward (Blackbeard) Teach.md",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Republika pirátů v Nassau 2",
+          "description": null,
+          "date": {
+            "month": 10,
+            "day": 12,
+            "year": 11
+          },
+          "id": "ID_899ae839e98a",
+          "note": "Locations/Nassau.md",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Range",
+          "end": {
+            "month": 4,
+            "day": 28,
+            "year": 1718
+          }
+        },
+        {
+          "name": "Israel Hands se stává velícím důstojníkem",
+          "description": null,
+          "date": {
+            "month": 11,
+            "day": 23,
+            "year": 11
+          },
+          "id": "ID_9a8978383acb",
+          "note": "Characters/Israel Hands.md",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Jennings a Silvermouth se dávají dohromady",
+          "description": null,
+          "date": {
+            "month": 3,
+            "day": 19,
+            "year": 10
+          },
+          "id": "ID_4afbea59a80a",
+          "note": "Characters/Henry Jennings.md",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Raine a Calico Jack se rozchází",
+          "description": null,
+          "date": {
+            "month": 8,
+            "day": 14,
+            "year": 10
+          },
+          "id": "ID_99fa4bfbbadb",
+          "note": "Characters/John (Calico Jack) Rackham.md",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Élie přijíždí do Nassau",
+          "description": null,
+          "date": {
+            "month": 8,
+            "day": 13,
+            "year": 10
+          },
+          "id": "ID_db8a99498abb",
+          "note": null,
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Začátek kampaně",
+          "description": null,
+          "date": {
+            "month": 8,
+            "day": 16,
+            "year": 10
+          },
+          "id": "ID_c9b8ba584bca",
+          "note": null,
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Session 0",
+          "description": "",
+          "date": {
+            "day": 15,
+            "month": 8,
+            "year": 10
+          },
+          "id": "ID_2a1a6a999aa8",
+          "note": "Session notes/Session 0.md",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Session 1",
+          "description": null,
+          "date": {
+            "day": 16,
+            "month": 8,
+            "year": 10
+          },
+          "id": "ID_e9cbc9fadb68",
+          "note": "Session notes/Session 1.md",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Session 0",
+          "description": "",
+          "date": {
+            "day": 16,
+            "month": 8,
+            "year": 10
+          },
+          "id": "ID_2a1a6a999aa8",
+          "note": "Session notes/Session 0.md",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        },
+        {
+          "name": "Session 2",
+          "description": null,
+          "date": {
+            "day": 17,
+            "month": 8,
+            "year": 10
+          },
+          "id": "ID_89297bdb096a",
+          "note": "Session notes/Session 2.md",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Date"
+        }
+      ],
+      "categories": [],
+      "autoParse": false,
+      "path": [
+        "/"
+      ],
+      "supportInlineEvents": false,
+      "inlineEventTag": "#inline-events",
+      "dateFormat": "DD-MM-YYYY"
+    }
+  ],
+  "configDirectory": null,
+  "dailyNotes": false,
+  "dateFormat": "YYYY-MM-DD",
+  "defaultCalendar": "ID_99bba9287ba9",
+  "eventPreview": true,
+  "exit": {
+    "saving": false,
+    "event": false,
+    "calendar": false,
+    "savingEvent": false
+  },
+  "eventFrontmatter": false,
+  "parseDates": false,
+  "version": {
+    "major": 1,
+    "minor": 3,
+    "patch": 3,
+    "beta": null
+  },
+  "debug": false,
+  "askedToMoveFC": false,
+  "askedAboutSync": false,
+  "syncBehavior": "Ask",
+  "inlineEventsTag": null,
+  "paths": []
+}

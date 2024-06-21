@@ -1,0 +1,3 @@
+- tall, burly older (50-ish) Irish man with longer red hair.
+- has 3 pretty daughters and a short and kind chubby wife
+- someone from [[Samuel (Black Sam) Bellamy]]'s crew allegedly stole his eldest daughter's virginity, and now he doesn't want to offer his services to Bellamy's crew

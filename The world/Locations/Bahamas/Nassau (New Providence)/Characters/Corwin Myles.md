@@ -1,0 +1,1 @@
+- smaller, stockier man of European origin, around 50 years old, short black hair with a bald patch on top, thick black moustache, brown eyes

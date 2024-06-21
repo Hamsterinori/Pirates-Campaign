@@ -1,0 +1,367 @@
+{
+  "mapMarkers": [
+    {
+      "id": "CaribbeanMap",
+      "lastAccessed": 1718528334448,
+      "markers": [
+        {
+          "id": "ID_2988c97af91b",
+          "type": "default",
+          "loc": [
+            -0.008092329751079664,
+            0.024314348318540725
+          ],
+          "link": "Nassau",
+          "layer": "the_caribbean.jpg",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_1a297b0ac9ca",
+          "type": "default",
+          "loc": [
+            -0.0165596961742267,
+            0.025234222412109375
+          ],
+          "link": "Port Royal",
+          "layer": "the_caribbean.jpg",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_d9da39ca0908",
+          "type": "default",
+          "loc": [
+            -0.013940289275663233,
+            0.030005858741451855
+          ],
+          "link": "Tortuga",
+          "layer": "the_caribbean.jpg",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_8a9bbb3a1a2b",
+          "type": "default",
+          "loc": [
+            -0.01598834921605885,
+            0.0421478278003633
+          ],
+          "link": "Isla de Nadie",
+          "layer": "the_caribbean.jpg",
+          "mutable": true,
+          "command": true,
+          "percent": null,
+          "description": "(cheesing this location a little and making up some islands that aren't there)\n\"On the day of the blue moon,\nLook at the little star,\nwith the Saint of Tours on your left,\nand the apple of Granada to your right,\nand no man's island is revealed\"",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_6b8b1aea1989",
+          "type": "default",
+          "loc": [
+            -0.016633700928650796,
+            0.041226959554478526
+          ],
+          "link": "Saint Martin",
+          "layer": "the_caribbean.jpg",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        }
+      ],
+      "overlays": [],
+      "shapes": [],
+      "files": [
+        "The world/Map of the Caribbean.md"
+      ]
+    },
+    {
+      "id": "Nassau",
+      "lastAccessed": 1718644877234,
+      "markers": [
+        {
+          "id": "ID_d8e99b38db98",
+          "type": "default",
+          "loc": [
+            -0.0021640779450535774,
+            0.0036207345268970707
+          ],
+          "link": "Governor’s Mansion",
+          "layer": "Nassau.jpg",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_9a7a9888c818",
+          "type": "default",
+          "loc": [
+            -0.0054721832275390625,
+            0.006532353968153859
+          ],
+          "link": "Church",
+          "layer": "Nassau.jpg",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_d84a8a0a89c8",
+          "type": "default",
+          "loc": [
+            -0.0067691802978515625,
+            0.006119900086677358
+          ],
+          "link": "Spanish Jackie’s",
+          "layer": "Nassau.jpg",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_7ada0959783a",
+          "type": "default",
+          "loc": [
+            -0.0076847076416015625,
+            0.004195115306453689
+          ],
+          "link": "Cutler’s Curiosities",
+          "layer": "Nassau.jpg",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_4b1819b9cb5a",
+          "type": "default",
+          "loc": [
+            -0.00857887277379632,
+            0.004552574777640275
+          ],
+          "link": "The Wet Wench",
+          "layer": "Nassau.jpg",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_9bea2a29296a",
+          "type": "default",
+          "loc": [
+            -0.00802955636754632,
+            0.005759384282701147
+          ],
+          "link": "Ed’s Bar & Grill & Other Delicacies",
+          "layer": "Nassau.jpg",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_09facb688ad8",
+          "type": "default",
+          "loc": [
+            -0.008673477917909622,
+            0.006785936351962564
+          ],
+          "link": "The Thirsty Squid",
+          "layer": "Nassau.jpg",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_6b8bea08cab9",
+          "type": "default",
+          "loc": [
+            -0.006201554089784622,
+            0.007396979139335158
+          ],
+          "link": "General Store",
+          "layer": "Nassau.jpg",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_ebca7bdb097a",
+          "type": "default",
+          "loc": [
+            -0.005246353801339865,
+            0.007946917647970491
+          ],
+          "link": "Blacksmith",
+          "layer": "Nassau.jpg",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_faeaebe9890a",
+          "type": "default",
+          "loc": [
+            -0.007275772746652365,
+            0.007580291975546936
+          ],
+          "link": "Below The Decks",
+          "layer": "Nassau.jpg",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_493a7acb2a0a",
+          "type": "default",
+          "loc": [
+            -0.01003456162288785,
+            0.006590401914101494
+          ],
+          "link": "Fence and Port Warehouse",
+          "layer": "Nassau.jpg",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_d8181bdb58e9",
+          "type": "default",
+          "loc": [
+            -0.007294083014130592,
+            0.014130670003517027
+          ],
+          "link": "Fort Nassau",
+          "layer": "Nassau.jpg",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_3a693a19fb98",
+          "type": "default",
+          "loc": [
+            -0.009537124540656805,
+            0.0036310313453018182
+          ],
+          "link": "Tent town",
+          "layer": "Nassau.jpg",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        }
+      ],
+      "overlays": [],
+      "shapes": [],
+      "files": [
+        "The world/Locations/Bahamas/Nassau (New Providence)/Nassau.md"
+      ]
+    }
+  ],
+  "defaultMarker": {
+    "type": "default",
+    "iconName": "map-marker",
+    "color": "#dddddd",
+    "transform": {
+      "size": 6,
+      "x": 0,
+      "y": -2
+    }
+  },
+  "markerIcons": [],
+  "color": "#dddddd",
+  "lat": 39.983334,
+  "long": -82.98333,
+  "notePreview": false,
+  "layerMarkers": true,
+  "previousVersion": "6.0.5",
+  "version": {
+    "major": 6,
+    "minor": 0,
+    "patch": 5
+  },
+  "warnedAboutMapMarker": false,
+  "copyOnClick": false,
+  "displayMarkerTooltips": "hover",
+  "displayOverlayTooltips": true,
+  "configDirectory": null,
+  "mapViewEnabled": true,
+  "mapViewParameters": {},
+  "enableDraw": true,
+  "defaultUnitType": "imperial",
+  "defaultTile": "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png",
+  "defaultTileDark": "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png",
+  "defaultAttribution": "&copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors &copy; <a href=\"https://carto.com/attributions\">CARTO</a>",
+  "defaultTileSubdomains": "a,b,c,d"
+}

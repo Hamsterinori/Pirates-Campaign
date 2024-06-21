@@ -1,0 +1,4 @@
+- Skupinka se probouzí na druhý den po verbování
+- Rufus zůstal v hospodě pod stolem, Elie v hospodě v pokoji, Brock šel domů, Riel ve svém stanu ve stanovém městečku, Raine a Aksim večer pili s BBm a Stedeem
+- Pozn: Riel viděl do města připlout oškubaného piráta, který dopádloval ze zátoky (?)/přístavu a zmizel ve městě. Aksim pak viděl toho samého borce ve městě, jak si s nějakým měšťanem něco secretly vyměňujou (pirát dovezl měšťanovi). Všimnul si, že borec má na levé ruce uvázaný černý šátek, kterým se identifikují lidi dělající pod Bellamym.
+- Have a drug plot point. V Nassau se rozšíří nová droga jménem Ranita, která najednou zabíjí lidi. ~~BB svolá sněm kapitánů, aby se pořešilo, co s tím a kdo to dělá. Bellamy to není, byť je kvůli tomu člověku podezříván~~

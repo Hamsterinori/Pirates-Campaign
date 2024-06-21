@@ -1,0 +1,249 @@
+{
+  "main": {
+    "id": "c36b02c9416a0a1d",
+    "type": "split",
+    "children": [
+      {
+        "id": "9973c133b1b71fb7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "917f315b8220c961",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9e56bf017bfe42b2",
+    "type": "split",
+    "children": [
+      {
+        "id": "2b76646bcb963b2f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2692d59a34c168c6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "eb7635195237d343",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "09a02389e8aecf69",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 254.5
+  },
+  "right": {
+    "id": "dec59141d3c28555",
+    "type": "split",
+    "children": [
+      {
+        "id": "d640b556c020d53d",
+        "type": "tabs",
+        "dimension": 67.27941176470588,
+        "children": [
+          {
+            "id": "74db43e3bd6b4b81",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "5e47ecf2da7f541e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "27178c467a000c3c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": true,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "e5f858d149cede91",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "3d603dcbce550666",
+            "type": "leaf",
+            "state": {
+              "type": "DICE_ROLLER_VIEW",
+              "state": {}
+            }
+          },
+          {
+            "id": "389d7af83a345b19",
+            "type": "leaf",
+            "state": {
+              "type": "CALENDARIUM",
+              "state": {
+                "calendar": "ID_99bba9287ba9",
+                "ephemeral": {
+                  "viewing": {
+                    "day": 30,
+                    "month": 9,
+                    "year": 1716
+                  },
+                  "viewState": 0,
+                  "displaying": {
+                    "day": 7,
+                    "month": 9,
+                    "year": 1716
+                  },
+                  "displayDayNumber": true,
+                  "displayMoons": true
+                },
+                "id": "ID_5889ca9b48bb",
+                "child": "ID_aba9cb784aa9"
+              }
+            }
+          }
+        ],
+        "currentTab": 5
+      },
+      {
+        "id": "d8bf67a3b7710135",
+        "type": "tabs",
+        "dimension": 32.720588235294116,
+        "children": [
+          {
+            "id": "87eb6933f6630aa4",
+            "type": "leaf",
+            "state": {
+              "type": "CALENDARIUM_AGENDA",
+              "state": {
+                "calendar": "ID_99bba9287ba9",
+                "id": "ID_aba9cb784aa9",
+                "parent": "ID_5889ca9b48bb"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 272.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-leaflet-plugin:Open Leaflet Map": false,
+      "publish:Publish changes...": false,
+      "calendarium:Open Calendarium": false
+    }
+  },
+  "active": "2692d59a34c168c6",
+  "lastOpenFiles": [
+    "zZ_remote_git",
+    "z_Images/GitHubDesktopSetup-x64.eifhX2zk.exe.part",
+    "z_Images/GitHubDesktopSetup-x64.exe",
+    "The world/Locations/Bahamas/Nassau (New Providence)/Nassau.md",
+    "The world/Characters/Player characters/Raine Whispers.md",
+    "The world/Characters/Player characters/Riel Reef.md",
+    "The world/Characters/Player characters/Red Rufus.md",
+    "The world/Characters/Player characters/Élie Angevau.md",
+    "The world/Characters/Player characters/Aksim al-Jamil.md",
+    "The world/Characters/Player characters/Brock Dewlap.md",
+    "The world/Characters/Crew/Raine's crew/Raine's crew.md",
+    "The world/Characters/Captains/Samuel (Black Sam) Bellamy.md",
+    "The world/Characters/Captains/John (Calico Jack) Rackham.md",
+    "The world/Characters/Captains/Charles Vane.md",
+    "The world/Characters/Captains/Henry Jennings.md",
+    "The world/Characters/Captains/Edward (Blackbeard) Teach.md",
+    "The world/Characters/Captains/Benjamin Hornigold.md",
+    "z_Images/Nassau_h.jpg",
+    "z_Images/Jennings.PNG",
+    "insert_image.md",
+    "The world/Characters/Navy/John Jennings.md",
+    "The world/Characters/Crew/Vane's crew/Edward England.md",
+    "The world/Characters/Crew/Hornigold's crew/John Silvermouth.md",
+    "The world/Characters/Crew/John Fenn.md",
+    "The world/Characters/Crew/Thomas Sutton.md",
+    "The world/Locations/Bahamas/Nassau (New Providence)/Blackbeard's codex.md",
+    "The world/Locations/Bahamas/Nassau (New Providence)/The Republic of Pirates.md",
+    "The world/Locations/Bahamas/Nassau (New Providence)/Locations/Below The Decks.md",
+    "The world/Locations/Bahamas/Nassau (New Providence)/Locations/General Store.md",
+    "The world/Locations/Bahamas/Nassau (New Providence)/Locations/Fort Nassau.md",
+    "The world/Locations/Jamaica/Port Royal/Locations",
+    "The world/Locations/Jamaica/Port Royal/Characters",
+    "The world/Locations/Jamaica/Kingston/Locations",
+    "The world/Locations/Jamaica/Kingston/Characters",
+    "The world/Characters/Crew/Vane's crew",
+    "The world/Characters/Crew/Raine's crew",
+    "The world/Characters/Crew/Bellamy's crew",
+    "The world/Characters/Crew/Rackham's crew",
+    "z_Images/Rufus.png",
+    "z_Images/Brock.png",
+    "z_Images/Riel.png",
+    "z_Images/Aksim.png",
+    "z_Images/Elie.jpg",
+    "z_Images/Raine.jpg",
+    "z_Images/Hector.png",
+    "z_Images/Ines.png"
+  ]
+}

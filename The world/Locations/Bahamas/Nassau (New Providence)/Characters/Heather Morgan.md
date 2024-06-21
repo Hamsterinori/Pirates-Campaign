@@ -1,0 +1,3 @@
+- tall slim woman around 30 with light brown long wavy hair, brown eyes
+- the widow of one of Jennings' pirates who died in the fire of his ship in 1715
+- currently having a secret-ish affair with [[Thomas “Tom” Wright]]
